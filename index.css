@@ -168,12 +168,22 @@ header table {
     background-size:cover;
     background-repeat:no-repeat;
 }
-#work {
+#proj {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
 }
-#work h1 {
+#proj h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(255, 44, 90);
+    width:6%;
+}
+#resea {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#resea h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
     width:6%;
@@ -364,8 +374,11 @@ button:focus {
     #contact form textarea {
         width:90%;
     }
-    #work h1 {
+    #resea h1 {
         width:19%;
+    }
+    #proj h1 {
+        width:19%
     }
     #bio h1 {
         width:25%;
