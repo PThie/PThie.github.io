@@ -537,3 +537,47 @@ button:focus {
     margin-right: auto;
     width: 50%;
   }
+
+  #slider{
+    width:100%;
+    height:500px;
+    position:relative;
+    overflow:hidden;
+  }
+  @keyframes load{
+    from{left:-100%;}
+    to{left:0;}
+  }
+  .slides{
+    width:400%;
+    height:100%;
+    position:relative;
+    -webkit-animation:slide 30s infinite;
+    -moz-animation:slide 30s infinite;
+    animation:slide 30s infinite;
+  }
+  .slider{
+    width:25%;
+    height:100%;
+    float:left;
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+  }
+  .slide img{
+    width:100%;
+    height:100%;
+  }
+  .slide img{
+    width:100%;
+    height:100%;
+  }
+  .image{
+    width:100%;
+    height:100%;
+  }
+  .image img{
+    width:100%;
+    height:auto;
+  }
+  
