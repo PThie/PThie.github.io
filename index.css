@@ -485,7 +485,7 @@ button:focus {
   
   /* Caption text */
   .text {
-    color: #f2f2f2;
+    color: #3b3939;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -496,7 +496,7 @@ button:focus {
   
   /* Number text (1/3 etc) */
   .numbertext {
-    color: #f2f2f2;
+    color: #3b3939;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
