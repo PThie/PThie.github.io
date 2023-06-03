@@ -390,7 +390,7 @@ button:focus {
         width:96vw;
         background:#fff;
         padding:4vh 2vw;
-        position:absolute;
+        position:relative;
     }
     #header table tr td {
         width:100%;
