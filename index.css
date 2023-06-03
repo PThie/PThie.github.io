@@ -403,10 +403,6 @@ button:focus {
     }
 }
 
-a {
-    color: inherit;
-}
-
 .collapsible {
     background-color: #eee;
     color: #000;
@@ -598,7 +594,7 @@ a {
 }
 
 .onClickTextOverImage div{
-    position:absolute;
+    position:fixed;
     color:#fff;
     padding:8px;
     top:0;
@@ -612,6 +608,10 @@ a {
     opacity:0;
     visibility:hidden;
     transition:.3s;
+}
+
+.onClickTextOverImage a{
+    color:#000;
 }
 
 .onClickTextOverImage p{
