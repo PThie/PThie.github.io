@@ -594,7 +594,7 @@ button:focus {
   }
   
   .onClickTextOverImage div{
-    position:absolute;
+    position:relative;
     color:#fff;
     padding:8px;
     top:0;
