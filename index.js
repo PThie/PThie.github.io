@@ -109,3 +109,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+$('DIV#images img').click(function () {
+  $('DIV #text').html($(this).data('text')));
+});
