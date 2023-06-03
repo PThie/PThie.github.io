@@ -627,12 +627,8 @@ button:focus {
     transition:.3s;
 }
 
-.onClickTextOverImage a{
-    color: inherit;
-}
-
 .onClickTextOverImage.show div{
     opacity:1;
     padding-top:40%;
-    visibility:visible;
+    visibility:visible !important;
 }
