@@ -111,5 +111,5 @@ function showSlides(n) {
 }
 
 $('DIV#images img').click(function () {
-  $('DIV #text').html($(this).data('text')));
+  $('DIV #text').html($(this).data('text'))
 });
