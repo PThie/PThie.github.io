@@ -590,13 +590,12 @@ button:focus {
     margin:4px;
     box-shadow:0 0 16px rgba(0,0,0,0.5);
     cursor:pointer;
-    position:inherit;
+    position:relative;
 }
 
 .onClickTextOverImage div{
-    position:inherit;
-    /*color:#fff*/;
-    color: #000;
+    position:absolute;
+    color:#fff;
     padding:8px;
     top:0;
     bottom:0;
