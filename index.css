@@ -579,9 +579,9 @@ button:focus {
   .image img{
     width:100%;
     height:auto;
-  }
+}
 
-  .onClickTextOverImage{
+.onClickTextOverImage{
     width:200px;
     height:200px;
     background-size:cover;
@@ -591,9 +591,9 @@ button:focus {
     box-shadow:0 0 16px rgba(0,0,0,0.5);
     cursor:pointer;
     position:relative;
-  }
-  
-  .onClickTextOverImage div{
+}
+
+.onClickTextOverImage div{
     position:relative;
     color:#fff;
     padding:8px;
@@ -608,10 +608,10 @@ button:focus {
     opacity:0;
     visibility:hidden;
     transition:.3s;
-  }
-  
-  .onClickTextOverImage.show div{
+}
+
+.onClickTextOverImage.show div{
     opacity:1;
     padding-top:40%;
     visibility:visible;
-  }
+}
