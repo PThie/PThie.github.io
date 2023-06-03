@@ -403,6 +403,10 @@ button:focus {
     }
 }
 
+a {
+    color: inherit;
+}
+
 .collapsible {
     background-color: #eee;
     color: #000;
