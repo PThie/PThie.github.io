@@ -581,45 +581,39 @@ button:focus {
     height:auto;
   }
 
-  .textOverImage{
-    width:400px;
-    height:400px;
-    display:inline-block;
+  .onClickTextOverImage{
+    width:200px;
+    height:200px;
     background-size:cover;
-    border-radius:4px;
+    display:inline-block;
     margin:4px;
+    border-radius:16px;
+    box-shadow:0 0 16px rgba(0,0,0,0.5);
     position:relative;
-    cursor:pointer;
-    overflow:hidden;
   }
   
-  .textOverImage > input{
-    display:none;
-  }
-  
-  .textOverImage > div,.textOverImage > h2{
+  .onClickTextOverImage *{
     position:absolute;
-    background-color:rgba(255,255,255,0.8);
-    bottom:20px;
-    left:4px;
-    right:4px;
-    border-radius:4px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:2;
+  }
+  
+  .onClickTextOverImage div{
+    z-index:1;
+    color:#fff;
+    text-align:center;
     padding:8px;
-    overflow:hidden;
+    padding-top:35%;
+    background-color:rgba(0,0,0,0.5);
+    border-radius:16px;
     opacity:0;
     transition:.3s;
   }
-  
-  .textOverImage:hover > h2,.textOverImage > input:checked + h2 + div{
-    bottom:4px;
-    opacity:1;
-  }
-  
-  .textOverImage > input:checked + h2{
-    bottom:-20px;
-    opacity:0;
-  }
-  
-  .textOverImage > h2{
-    margin:0;
+  .onClickTextOverImage div:target{
+    opacity:1;  
+    padding-top:40%;
+    z-index:3;
   }
