@@ -610,10 +610,6 @@ button:focus {
     transition:.3s;
 }
 
-.onClickTextOverImage a{
-    color:#000;
-}
-
 .onClickTextOverImage p{
     position:absolute;
     color:#fff;
