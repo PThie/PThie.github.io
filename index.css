@@ -610,6 +610,27 @@ button:focus {
     transition:.3s;
 }
 
+.onClickTextOverImage p{
+    position:relative;
+    color:#fff;
+    padding:8px;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color:rgba(0,0,0,0.5);
+    border-radius:16px;
+    padding-top:35%;
+    text-align:center;
+    opacity:0;
+    visibility:hidden;
+    transition:.3s;
+}
+
+.onClickTextOverImage a{
+    color: inherit;
+}
+
 .onClickTextOverImage.show div{
     opacity:1;
     padding-top:40%;
