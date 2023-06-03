@@ -582,8 +582,8 @@ button:focus {
 }
 
 .onClickTextOverImage{
-    width:200px;
-    height:200px;
+    width:250px;
+    height:250px;
     background-size:cover;
     display:inline-block;
     border-radius:16px;
